@@ -1,0 +1,25 @@
+﻿{
+  "extensions": [
+    {
+      "extension": "xFileWatcher.dll",
+      "instancename": "xFileWatcher.Watcher",
+      "properties": 
+        {
+          "buffersize": 65536,
+          "collectoutput": "false",
+          "watchedfolder": "\\barDecode\\input",
+          "watchedfilter": "*.tif",
+          "executable": "\\php\\php.exe",
+          "commandseed": "\"__SCRIPT__\" \"__PROCESSEDFILE__\" \"__MAGICKPATH__\" \"__OUTPUTPATH__\" \"__IDENTIFICATIONBARCODE__\" \"__HEIGHTCOEFF__\" \"__MARGINCOEFF__\" \"__UNRECOGNIZEDPATH__\" true true \"__FINALDESTINATION__\"",
+          "script": "\\barDecode\\readSheet.php",
+          "magickpath": "\\ImageMagick-7.0.7-Q16\\magick.exe",
+          "outputpath": "\\barDecode\\out",
+          "identificationbarcode": "284553596061",
+          "heightcoeff": "0.1276",
+          "margincoeff": "0.0127",
+          "unrecognizedpath": "\\barDecode\\corrections",
+          "finaldestination": "\\barDecode\\finished"
+        }
+    }
+  ]
+}

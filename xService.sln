@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# SharpDevelop 5.1
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xFileWatcher", "xFileWatcher\xFileWatcher.csproj", "{4C0F4EA1-93DE-4ED0-8CB1-E6A8E3954089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xService", "xService\xService.csproj", "{41E83429-B68E-466D-8605-86B98A363BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUtils", "xUtils\xUtils.csproj", "{BBE67D42-F329-49DE-BA87-04A937DAA793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C0F4EA1-93DE-4ED0-8CB1-E6A8E3954089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0F4EA1-93DE-4ED0-8CB1-E6A8E3954089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0F4EA1-93DE-4ED0-8CB1-E6A8E3954089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0F4EA1-93DE-4ED0-8CB1-E6A8E3954089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41E83429-B68E-466D-8605-86B98A363BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E83429-B68E-466D-8605-86B98A363BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E83429-B68E-466D-8605-86B98A363BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E83429-B68E-466D-8605-86B98A363BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE67D42-F329-49DE-BA87-04A937DAA793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE67D42-F329-49DE-BA87-04A937DAA793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE67D42-F329-49DE-BA87-04A937DAA793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE67D42-F329-49DE-BA87-04A937DAA793}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
